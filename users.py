@@ -44,6 +44,7 @@ class User:
                 # break
                 sys.exit(0)
 
+# Professor extends from User
 class Professor(User):
     def __init__(self, name, course):
         super().__init__(name, course)
@@ -58,6 +59,7 @@ class Professor(User):
             print("Uploading lecture outline to cloud database")
             addOutline(self.course.course_name, outline)
 
+# Administrator doesn't get to collab notes
 class Administrator:
     def __init__(self, name):
         self.name = name

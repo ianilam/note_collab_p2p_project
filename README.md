@@ -3,7 +3,7 @@
 Ian Lam (iil209), Runxi Bai (rx4287)
 
 ## Overview
-This is a terminal based application which allows users in the same network to collaborate and share notes. The application is built with a P2P network that uses the TCP Protocol to transfer data among peers. The ideal targets of this application include students, and teachers in a school system.
+This is a terminal based application which allows users in the same network to collaborate and share notes. The application is built with a P2P network that uses the TCP Protocol to transfer data among peers. The ideal targets of this application include students and teachers in a school system.
 
 ## Problem Statement
 Due to the ongoing COVID19 pandemic, all of New York University’s courses are turned into remote instruction through Zoom. The school wants to develop a note collaborating system that will allow students to share and contribute to notes taken during Zoom class meetings.
@@ -16,7 +16,7 @@ Due to the ongoing COVID19 pandemic, all of New York University’s courses are 
   * The Database used is the NoSQL database Cloud Firestore from Firebase and Google Cloud Platform
 * Upload lecture outline to a Cloud Database
 * Due to its P2P architecture, the application will run as long as there are at least two users in the network. One user will act as the Facilitator and the other as the Notetaker.
-    * If one of the Facilitator becomes disconnected, one of the remaining Notetaker will become the new Facilitator.
+  * If one of the Facilitator becomes disconnected, one of the remaining Notetakers will become the new Facilitator.
 
 ## Components
 1. `chat.py`
@@ -33,7 +33,7 @@ Due to the ongoing COVID19 pandemic, all of New York University’s courses are 
 5. `server.py`
   * `Server`: Facilitates the interactions between Clients.
 6. `client.py`
- * `Client`: Takes note, export notes.
+  * `Client`: Takes note, exports notes.
 7. `db_firestore.py`: methods used for interacting with the Cloud Firestore database.
 
 ## How to Run Application
