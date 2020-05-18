@@ -55,7 +55,7 @@ def retrieveOutline(class_name):
     outline = ""
 
     # ---- the following can be uncommented out when we are actually connecting to firestore -----
-    
+
     # document_id = class_name + "_" + str(date.today())
     # doc_ref = db.collection(u'lectures').document(document_id)
     # print("checking in database...")

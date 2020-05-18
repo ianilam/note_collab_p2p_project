@@ -37,7 +37,10 @@ Due to the ongoing COVID19 pandemic, all of New York University’s courses are 
 * `db_firestore.py`: methods used for interacting with the Cloud Firestore database.
 
 ## How to Run Application
-Type the following in the terminal:  
+To make sure all required libraries are installed, please do the following if it's the first time running the application:  
+`pip install -r requirements.txt`
+
+To run the actual application, type the following in the terminal:  
 `python chat.py`
 
 This should immediately starts a prompt that asks for user name and the course.
@@ -64,7 +67,7 @@ Functions that the Notetaker can type in the terminal include:
 `::syncnote()`: obtain most updated version of note from Facilitator  
 `::lecturenote()`: retrieve the lecture note the Professor uploaded from the Cloud database
 
-To disconnect from the application, the user just type `Ctrl+C` in their terminal to disconnect from the network.
+To disconnect from the application, the user just type `Ctrl+C` in their terminal to disconnect from the network and terminate the process.
 
 
 ## Example Run
