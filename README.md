@@ -19,22 +19,22 @@ Due to the ongoing COVID19 pandemic, all of New York University’s courses are 
   * If one of the Facilitator becomes disconnected, one of the remaining Notetakers will become the new Facilitator.
 
 ## Components
-1. `chat.py`
+* `chat.py`
   * `NotetakingApp`: entry point of this application. All users of this application logs in from this point.
   * `SystemInfo`: contains information for all users and the courses information.
-2. `users.py`
+* `users.py`
   * `User`: base class. It has the collaborating function to join a P2P network
   * `Professor`: extends from User. In addition to collaborating, the Professor can also upload lecture notes to a cloud database.
   * `Administrator`: manages the SystemInfo. Updates course information or course information.
-3. `course.py`
+* `course.py`
   * `Course`: Course object. Includes the course name and the socket port it is assigned to.
-4. `note.py`
+* `note.py`
   * `Note`: Note object. Includes the actual content of the note and the course it's for.
-5. `server.py`
+* `server.py`
   * `Server`: Facilitates the interactions between Clients.
-6. `client.py`
+* `client.py`
   * `Client`: Takes note, exports notes.
-7. `db_firestore.py`: methods used for interacting with the Cloud Firestore database.
+* `db_firestore.py`: methods used for interacting with the Cloud Firestore database.
 
 ## How to Run Application
 Type the following in the terminal:  
