@@ -1,0 +1,10 @@
+lecture outline
+* Introduction
+* Types of Operating Systems
+	** Single-tasking and multi-tasking
+	** Single - and mult-user
+	** Distributed
+	** Templated
+	** Embedded
+	** Real
+	** Library
